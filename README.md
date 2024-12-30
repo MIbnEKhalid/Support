@@ -1,4 +1,4 @@
-# Ticket MBK Tech Studio Website 
+# Support MBK Tech Studio Website 
 
 https://mbktechstudio.com/Support or https://MIbnEKhalid.github.io/Support
  
@@ -14,4 +14,4 @@ See the [LICENSE](LICENSE.md) file for details.
  
 ## Contact
 
-For questions or contributions, please contact Muhammad Bin Khalid at [mbktechstudio.com/Support](https://mbktechstudio.com/Support/?Project=MIbnEKhalidWeb), [support@mbktechstudio.com](mailto:support@mbktechstudio.com) or [chmuhammadbinkhalid28.com](mailto:chmuhammadbinkhalid28.com). 
+For questions or contributions, please contact Muhammad Bin Khalid at [mbktechstudio.com/Support](https://mbktechstudio.com/Support/?Project=MIbnEKhalidSupportWeb), [support@mbktechstudio.com](mailto:support@mbktechstudio.com) or [chmuhammadbinkhalid28.com](mailto:chmuhammadbinkhalid28.com). 
