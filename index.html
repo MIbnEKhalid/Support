@@ -8,15 +8,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="https://docs.mbktechstudio.com/Assets/project.css">
-    <link rel="stylesheet" href="Assets/Supportstyle.css">
-    <link rel="icon" type="image/x-icon" href="https://mbktechstudio.com/Assets/Images/Icon/MBKSupportIcon.svg">
+    <link rel="stylesheet" href="Supportstyle.css">
+    <link rel="icon" type="image/x-icon" href="../Assets/Images/Icon/MBKSupportIcon.svg">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/intlTelInput-jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/0934e8e9d3.js" crossorigin="anonymous"></script>
     <title>Support & Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <script src="https://mbktechstudio.com/Assets/Scripts/config.js"></script>
+    <script src="../Assets/Scripts/config.js"></script>
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             const input = document.querySelector('input[name="access_key"]');
@@ -71,7 +71,7 @@
             <div class="logo">
 
                 <div class="image">
-                    <img src="https://mbktechstudio.com/Assets/Images/Icon/dg.svg" alt="" />
+                    <img src="../Assets/Images/Icon/dg.svg" alt="" />
                 </div>
 
                 <div class="text">
@@ -283,6 +283,21 @@
                     </div>
                 </div>
 
+                <div class="notification is-link notereq" style="margin-bottom: 10px;" style="display: none;">
+                    <ul>
+                        <li>
+                            If You Have A Book In PDF Or Any Other Format, Please Upload It <a style="font-weight: 700;"
+                                href="https://driveuploader.com/upload/NxfqGG1OAh/">Here</a>, And Then Fill Out The Form
+                            To Alert Me That Your Book Request Has Been
+                            Submitted. Note That I Do Not Receive Notifications For Uploads, So I Won’t Know If You
+                            Upload A Book Without Filling Out The Form.
+                        </li>
+                        <li> If You Don't Have A Book To Upload, Please Submit The Form, And I Will Personally Find The
+                            Book And Upload It For You.
+                        </li>
+                    </ul>
+                </div>
+
                 <div class="field messageF">
                     <label class="label required-label">Message</label>
                     <div class="control"><textarea class="input" placeholder="Enter Your Message" id="message_form"
@@ -400,12 +415,12 @@
 
 </footer>
 
-<script src="Assets/Support.js"></script>
-<script src="https://mbktechstudio.com/Assets/Scripts/header.js"></script>
-<script src="https://mbktechstudio.com/Assets/Scripts/form.support.js"></script>
+<script src="Support.js"></script>
+<script src="../Assets/Scripts/header.js"></script>
+<script src="../Assets/Scripts/form.support.js"></script>
 <script>
     function openTicketPage(){
-        window.open(`../TrackTicket/`, '_blank');
+        window.open(`../Ticket/`, '_blank');
     }
 
     document.addEventListener("DOMContentLoaded", function () {
