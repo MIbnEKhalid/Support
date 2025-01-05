@@ -27,7 +27,7 @@ body.dark-mode form .label {
 .notification.is-form {
     padding: 15px;
     background-color: #eef8ff;
-    border: 1px solid #a7d4ff;
+    border: 2px solid #a7d4ff;
     color: #000000;
     /*  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
 }
