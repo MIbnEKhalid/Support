@@ -1,6 +1,6 @@
 body.dark-mode {
     background-color: #121212;
-    color: #e0e0e0;
+    color: #ffffff;
 }
 
 html.dark-mode {
@@ -9,17 +9,23 @@ html.dark-mode {
 
 body.dark-mode .notification.is-form {
     background-color: #1e1e1e;
-    color: #e0e0e0;
+    color: #ffffff;
+    border-color: #333;
+    padding: 20px;
+    border-radius: 12px !important;
 }
 
 body.dark-mode form .label {
-    color: #e0e0e0;
+    color: #ffffff;
 }
 
 body.dark-mode .close-btn { 
-    background: url(https://mbktechstudio.com/Assets/Images/close-icon-white.svg)  0 0 / 23px 23px no-repeat
+    background: url(https://mbktechstudio.com/Assets/Images/close-icon-white.svg) 0 0 / 23px 23px no-repeat;
 }
 
+.iti--separate-dial-code .iti__selected-dial-code{
+    color: #000000 !important;
+}
 .notification {
     padding: 10px;
     border-radius: 8px;
@@ -33,6 +39,7 @@ body.dark-mode .close-btn {
     background-color: #eef8ff;
     border: 2px solid #a7d4ff;
     color: #000000;
+    border-radius: 12px !important; 
     /*  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
 }
 

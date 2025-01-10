@@ -277,7 +277,7 @@
 
                 <div class="field phoneField" style="display: none;">
                     <label class="label">Phone Number</label>
-                    <div class="control">
+                    <div class="control" style="margin-bottom: 15px;">
                         <input class="input" type="text" id="mobile_code" placeholder="Enter Phone Number"
                             name="Number" />
                     </div>
@@ -300,8 +300,10 @@
 
                 <div class="field messageF">
                     <label class="label required-label">Message</label>
-                    <div class="control"><textarea class="input" placeholder="Enter Your Message" id="message_form"
-                            name="Message" rows="6" required=""></textarea></div>
+                    <div class="control">
+                        <textarea class="input" placeholder="Enter Your Message" id="message_form" name="Message"
+                            rows="6" required=""></textarea>
+                    </div>
                 </div>
 
                 <div class="field agreement-container">
@@ -348,8 +350,10 @@
 
 
                 <div class="button field is-grouped" style="display: flex; justify-content: center;">
-                    <div class="control"><button style="font-size: 20px;" class="button is-primary" type="submit"
-                            id="submit-button">Submit</button></div>
+                    <div class="control">
+                        <button style="font-size: 20px;" class="button is-primary" type="submit"
+                            id="submit-button">Submit</button>
+                    </div>
                 </div>
 
                 <br>
@@ -419,7 +423,7 @@
 <script src="../Assets/Scripts/header.js"></script>
 <script src="../Assets/Scripts/form.support.js"></script>
 <script>
-    function openTicketPage(){
+    function openTicketPage() {
         window.open(`../TrackTicket/`, '_blank');
     }
 
@@ -508,22 +512,6 @@
         }
     }
 
-</script> 
+</script>
 
 </html>
-
-<!--
-        const blotSelect = document.getElementById("blogCatogo");
-
-        fetch('https://blog.mbktechstudio.com/blogFiles.json')
-            .then(response => response.json())
-            .then(files => { 
-                files.forEach(fileName => {
-                    const option = document.createElement("option");
-                    option.value = fileName;
-                    option.textContent = fileName;
-                    blotSelect.appendChild(option);
-                });
-            })
-            .catch(error => console.error("Error loading blog files:", error));
--->
